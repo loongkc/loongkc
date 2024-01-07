@@ -2,7 +2,7 @@
 
 :root {
     /* 修改全局默认字体大小 */
-    --base-font-size: 20px;
+    --base-font-size: 15px;
 
     /* 修改全局默认字体样式 */
     --base-font-family: STSong, STHeiti;
@@ -61,7 +61,7 @@
     --home-post-hover-scale: 1.025;
 
     /* 隐藏文章内容页面作者头像 */
-    --post-author-avatar: none;
+    /* --post-author-avatar: none; */
 
     /* 隐藏文章内容页面的文章创建时间 */
     /* --post-create-datetime: none; */
