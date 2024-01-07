@@ -11,13 +11,13 @@
     --box-border-radius: 15px;
 
     /* 设置 Header 头部高度 */
-    --header-height: 60px;
+    --header-height: 70px;
 
     /* 
         设置 Header 头部收缩时的高度
         必须小于 Header 头部正常状态的高度
     */
-    --header-shrink-height: 50px;
+    --header-shrink-height: 60px;
 
     /* 设置 Header 头部的背景毛玻璃效果程度 */
     --header-backdrop-filter-blur: 5px;
