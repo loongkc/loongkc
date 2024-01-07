@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Loong&#39;s Blog</title>
+  
+  <subtitle>个人博客</subtitle>
+  <link href="https://loongkc.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://loongkc.github.io/"/>
+  <updated>2024-01-07T08:55:52.729Z</updated>
+  <id>https://loongkc.github.io/</id>
+  
+  <author>
+    <name>Loong</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>启航</title>
+    <link href="https://loongkc.github.io/2024/01/07/%E5%90%AF%E8%88%AA/"/>
+    <id>https://loongkc.github.io/2024/01/07/%E5%90%AF%E8%88%AA/</id>
+    <published>2024-01-07T07:02:54.000Z</published>
+    <updated>2024-01-07T08:55:52.729Z</updated>
+    
+    <content type="html"><![CDATA[<p>哎呀，昨天晚上搞好之后，我看版本不是最新的7.0.0，就想升级到最新版，搞了半天，最后也没搞好，反而把网站搞没了。12点又断电了，第二天还要赶9点的动车，行李都没收拾好。只能等到今天回来之后再搞了，还好，原来的设置文件没删，很快就恢复了。。。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;哎呀，昨天晚上搞好之后，我看版本不是最新的7.0.0，就想升级到最新版，搞了半天，最后也没搞好，反而把网站搞没了。12点又断电了，第二天还要赶9点的动车，行李都没收拾好。只能等到今天回来之后再搞了，还好，原来的设置文件没删，很快就恢复了。。。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="博客相关" scheme="https://loongkc.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="blog" scheme="https://loongkc.github.io/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初篇</title>
+    <link href="https://loongkc.github.io/2024/01/06/%E5%88%9D%E7%AF%87/"/>
+    <id>https://loongkc.github.io/2024/01/06/%E5%88%9D%E7%AF%87/</id>
+    <published>2024-01-06T13:31:39.000Z</published>
+    <updated>2024-01-07T08:56:04.344Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>在今天，这个博客算是基本完成了部署，面世了。先就这样吧。。。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;在今天，这个博客算是基本完成了部署，面世了。先就这样吧。。。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="博客相关" scheme="https://loongkc.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="blog" scheme="https://loongkc.github.io/tags/blog/"/>
+    
+  </entry>
+  
+</feed>
