@@ -6,7 +6,7 @@
   <link href="https://loongkc.github.io/atom.xml" rel="self"/>
   
   <link href="https://loongkc.github.io/"/>
-  <updated>2024-01-09T03:05:50.821Z</updated>
+  <updated>2024-01-09T03:50:36.777Z</updated>
   <id>https://loongkc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://loongkc.github.io/2024/01/09/%E5%86%BB%E6%9D%BF%E6%A0%97/"/>
     <id>https://loongkc.github.io/2024/01/09/%E5%86%BB%E6%9D%BF%E6%A0%97/</id>
     <published>2024-01-09T02:25:55.000Z</published>
-    <updated>2024-01-09T03:05:50.821Z</updated>
+    <updated>2024-01-09T03:50:36.777Z</updated>
     
     <content type="html"><![CDATA[<p>刚刚奶奶给我端来一小盆板栗，我还好奇是哪里来的，她说是嬢嬢买的冻板栗干。奶奶把冻板栗煮熟了，一时间有点感慨，老一辈可能无法理解冻板栗这种零食，她觉得冻的板栗把牙齿都咬掉，也是一片好心，特意煮熟了给我吃。</p><p>但是煮熟的冻板栗是真的不好吃啊！一点都不甜。</p>]]></content>
     
@@ -38,9 +38,7 @@
     <category term="日常" scheme="https://loongkc.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
-    <category term="blog" scheme="https://loongkc.github.io/tags/blog/"/>
-    
-    <category term="奶奶" scheme="https://loongkc.github.io/tags/%E5%A5%B6%E5%A5%B6/"/>
+    <category term="life" scheme="https://loongkc.github.io/tags/life/"/>
     
   </entry>
   
@@ -79,7 +77,7 @@
     <link href="https://loongkc.github.io/2024/01/07/%E5%90%AF%E8%88%AA/"/>
     <id>https://loongkc.github.io/2024/01/07/%E5%90%AF%E8%88%AA/</id>
     <published>2024-01-07T07:02:54.000Z</published>
-    <updated>2024-01-09T03:07:58.133Z</updated>
+    <updated>2024-01-09T03:50:40.327Z</updated>
     
     <content type="html"><![CDATA[<p>哎呀，昨天晚上搞好之后，我看版本不是最新的7.0.0，就想升级到最新版，搞了半天，最后也没搞好，反而把网站搞没了。12点又断电了，第二天还要赶9点的动车，行李都没收拾好。只能等到今天回来之后再搞了，还好，原来的设置文件没删，很快就恢复了。。。</p><span id="more"></span>]]></content>
     
@@ -91,7 +89,7 @@
     <category term="博客相关" scheme="https://loongkc.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="blog" scheme="https://loongkc.github.io/tags/blog/"/>
+    <category term="life" scheme="https://loongkc.github.io/tags/life/"/>
     
   </entry>
   
@@ -100,7 +98,7 @@
     <link href="https://loongkc.github.io/2024/01/06/%E5%88%9D%E7%AF%87/"/>
     <id>https://loongkc.github.io/2024/01/06/%E5%88%9D%E7%AF%87/</id>
     <published>2024-01-06T13:31:39.000Z</published>
-    <updated>2024-01-09T03:08:04.118Z</updated>
+    <updated>2024-01-09T03:50:45.821Z</updated>
     
     <content type="html"><![CDATA[<hr><p>在今天，这个博客算是基本完成了部署，面世了。先就这样吧。。。</p>]]></content>
     
@@ -117,7 +115,7 @@
     <category term="博客相关" scheme="https://loongkc.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="blog" scheme="https://loongkc.github.io/tags/blog/"/>
+    <category term="life" scheme="https://loongkc.github.io/tags/life/"/>
     
   </entry>
   
