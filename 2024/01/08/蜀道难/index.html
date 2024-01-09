@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="123456">
+    <meta name="description" content="简单的分享">
+    <meta name="author" content="Loong">
+    
+    <title>
+        
+            蜀道难 |
+        
+        Loong&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/b-solid.svg">
+    
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/font/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/font/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/font/css/brands.min.css">
+    
+        
+            
+                
+<link rel="stylesheet" href="/css/custom.css">
+
+            
+        
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"loongkc.github.io","root":"/","language":"zh-CN","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Loong's Blog","author":"Loong","avatar":"/images/loong.jpeg","logo":"/images/logo1.jpeg","favicon":"/images/b-solid.svg"},"menu":{"Archives":"/archives","Tags":"/tags","Categories":"/categories","Links":"/links","Photos":"/photos","About":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":true},"social_contact":{"enable":true,"links":{"github":"https://github.com/loongkc","weixin":"img | /images/wechat.png","qq":"img | /images/qq.jpg","email":"loongk@petalmail.com"}},"scroll":{"progress_bar":true,"percent":false,"hide_header":true},"home":{"category":true,"tag":true,"announcement":"更新啦！Version 0.0.0"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":true,"share":false,"reward":{"enable":true,"img_link":"/images/reward.png","text":"请作者喝杯水"}},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":true,"expand_all":true,"init_open":false,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":true,"use":"twikoo","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":"https://loongk-blog.hf.space","region":null,"version":"1.6.29"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":true},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"jsdelivr"},"pjax":{"enable":true},"footer":{"since":2024,"word_count":true,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":true,"provider":"github","url":null},"shields_style":{"enable":false,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":true,"css":["/css/custom.css"],"js":[null]},"root":"","links":[{"title":"朋友们"},{"name":"Gee","link":"https://chrisgee5.gitee.io/","description":"高中同学","avatar":"https://chrisgee5.gitee.io/images/Gee5.jpg"},{"name":"xpoet","link":"https://xpoet.cn/","description":"主题作者","avatar":"https://xpoet.cn/images/avatar.png"}],"photos":[{"url":"/images/logo2.jpeg","name":"loong"},{"url":"/images/logo1.jpeg","name":null},{"url":"/images/favicon1.jpeg","name":"blog"}],"version":"4.0.6"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="Loong's Blog" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container border-box">
+
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo1.jpeg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               Loong&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a class=""
+                           href="/"
+                        >首页</a>
+                    </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >归档</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >标签</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >分类</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >友链</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/photos"
+                            >相册</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >关于</a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            <li class="drawer-menu-item flex-center">
+                <a class=""
+                   href="/"
+                >首页</a>
+            </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags"
+                    >标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories"
+                    >分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links"
+                    >友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/photos"
+                    >相册</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about"
+                    >关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        蜀道难
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/none">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">唐・李白</span>
+                                
+                                    <span class="author-badge">Lv1</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-01-08 20:45:51</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Tue Jan 09 2024 11:25:36 GMT+0800">2024-01-09 11:25:36</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E6%96%87%E5%AD%A6/">文学</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <i class="icon fas fa-tags"></i>&nbsp;
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E5%8F%A4%E8%AF%97%E6%96%87/">古诗文</a></li>
+                        
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E8%9C%80%E9%81%93%E9%9A%BE/">蜀道难</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>7.5k 字</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>25 分钟</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-pv">
+                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+            </span>
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <h2><center>蜀道难</center></h2>
+
+<p align="right">唐・<a class="link"   target="_blank" rel="noopener" href="https://baike.baidu.com/item/%e6%9d%8e%e7%99%bd/1043" >李白<i class="fas fa-external-link-alt"></i></a></p>
+
+<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><p>噫吁嚱，危乎高哉！</p>
+<p>蜀道之难，难于上青天！<span id="more"></span></p>
+<p>蚕丛及鱼凫，开国何茫然！</p>
+<p>尔来四万八千岁，不与秦塞通人烟。</p>
+<p>西当太白有鸟道，可以横绝峨眉巅。</p>
+<p>地崩山摧壮士死，然后天梯石栈相钩连。</p>
+<p>上有六龙回日之高标，下有冲波逆折之回川。</p>
+<p>黄鹤之飞尚不得过，猿猱欲度愁攀援。</p>
+<p>青泥何盘盘，百步九折萦岩峦。</p>
+<p>扪参历井仰胁息，以手抚膺坐长叹。</p>
+<p>问君西游何时还？畏途巉岩不可攀。</p>
+<p>但见悲鸟号古木，雄飞雌从绕林间。</p>
+<p>又闻子规啼夜月，愁空山。</p>
+<p>蜀道之难，难于上青天，使人听此凋朱颜！</p>
+<p>连峰去天不盈尺，枯松倒挂倚绝壁。</p>
+<p>飞湍瀑流争喧豗，砯崖转石万壑雷。</p>
+<p>其险也如此，嗟尔远道之人胡为乎来哉！(“也如此” 一作：“也若此”)</p>
+<p>剑阁峥嵘而崔嵬，一夫当关，万夫莫开。</p>
+<p>所守或匪亲，化为狼与豺。</p>
+<p>朝避猛虎，夕避长蛇，磨牙吮血，杀人如麻。</p>
+<p>锦城虽云乐，不如早还家。</p>
+<p>蜀道之难，难于上青天，侧身西望长咨嗟！</p>
+<hr>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>哎呀呀</p>
+<p>蜀道难以攀越，简直难于上青天。</p>
+<p>传说中蚕丛和鱼凫建立了蜀国，开国的年代实在久远无法详谈。</p>
+<p>从那时至今约有四万八千年了吧，秦蜀被秦岭所阻从不沟通往返。</p>
+<p>西边太白山高峻无路只有飞鸟可通行，此山可以直通峨眉山巅。</p>
+<p>山崩地裂，埋葬了五位开山英雄壮士，这样以后高险的山路和栈道才相互勾连。</p>
+<p>蜀中上有挡住太阳神六龙车的山巅，下有激浪排空迂回曲折的大川。</p>
+<p>善于高飞的黄鹤尚且无法飞过，即使猢狲要想翻过也愁于攀援。</p>
+<p>青泥岭的泥路曲曲弯弯，百步九折萦绕着山峦。</p>
+<p>屏住呼吸仰头就可触摸参星和井星，紧张得透不过气来，用手抚胸惊恐不已徒长吁短叹。</p>
+<p>好朋友呵请问你西游何时回还？这蜀道的峭岩险道实在难以登攀！</p>
+<p>只见那悲鸟在古树上哀鸣啼叫；雄雌相随飞翔在茂密树丛之间。</p>
+<p>月夜又听到杜鹃凄凉悲啼，在空山中传响回荡，令人愁思绵绵无穷尽！</p>
+<p>蜀道难以攀越，简直难于上青天，使人听到这些怎么不脸色突变？</p>
+<p>山峰座座相连离天还不到一尺，枯松老枝倒挂倚贴在绝壁之间。</p>
+<p>漩涡飞转瀑布飞泻争相喧闹着，飞流撞击着巨石在山谷中滚动像万壑鸣雷一般。</p>
+<p>这样危险的地方，唉呀呀你这个远方而来的客人，为什么非要来这里不可呀？</p>
+<p>剑阁所在崇峻巍峨高入云端，只要一人把守千军万马难攻占。</p>
+<p>驻守的官员倘若不是可信赖的人，难免要变为豺狼，据险作乱。</p>
+<p>每日每夜都要躲避猛虎和长蛇，它们磨牙吮血，杀人如麻。</p>
+<p>锦官城虽然说是个快乐的所在，如此险恶还不如早早地把家还。</p>
+<p>蜀道难以攀越呵简直难于上青天，侧身西望令人不免感慨与长叹！</p>
+<hr>
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p>《蜀道难》：古乐府题，属《相和歌·瑟调曲》。</p>
+<p>噫吁嚱：惊叹声，蜀方言，表示惊讶的声音。</p>
+<p>蚕丛、鱼凫（fú）：传说中古蜀国两位国王的名字。</p>
+<p>何茫然：完全不知道的样子。何：多么。茫然：渺茫遥远的样子。</p>
+<p>尔来：从那时以来。</p>
+<p>四万八千岁：极言时间之漫长，夸张而大约言之。</p>
+<p>秦塞：秦的关塞，指秦地。秦地四周有山川险阻，故称“四塞之地”。</p>
+<p>通人烟：人员往来。</p>
+<p>西当：西对。当：对着，向着。</p>
+<p>太白：太白山，又名太乙山，在长安西（今陕西眉县、太白县一带）。</p>
+<p>鸟道：指连绵高山间的低缺处，只有鸟能飞过，人迹所不能至。</p>
+<p>横绝：横越。</p>
+<p>峨眉巅：峨眉顶峰。</p>
+<p>摧：倒塌。</p>
+<p>天梯：非常陡峭的山路。</p>
+<p>石栈：栈道。</p>
+<p>高标：指蜀山中可作一方之标识的最高峰。</p>
+<p>冲波：水流冲击腾起的波浪，这里指激流。</p>
+<p>逆折：水流回旋。回川：有漩涡的河流。</p>
+<p>黄鹤：黄鹄（hú），善飞的大鸟。</p>
+<p>尚：尚且。</p>
+<p>得：能。</p>
+<p>猿猱（náo）：蜀山中最善攀援的猴类。</p>
+<p>青泥：青泥岭，在今甘肃徽县南，陕西略阳县北。</p>
+<p>盘盘：曲折回旋的样子。</p>
+<p>百步九折：百步之内拐九道弯。</p>
+<p>萦：盘绕。</p>
+<p>岩峦：山峰。</p>
+<p>扪参历井：参(shēn)、井是二星宿名。古人把天上的星宿分别指配于地上的州国，叫做“分野”，以便通过观察天象来占卜地上所配州国的吉凶。参星为蜀之分野，井星为秦之分野。扪(mén)：用手摸。历：经过。</p>
+<p>胁息：屏气不敢呼吸。</p>
+<p>膺（yīng）：胸。</p>
+<p>坐：徒，空。</p>
+<p>君：入蜀的友人。</p>
+<p>畏途：可怕的路途。巉岩：险恶陡峭的山壁。</p>
+<p>但见：只听见。</p>
+<p>号古木：在古树木中大声啼鸣。</p>
+<p>从：跟随。</p>
+<p>子规：即杜鹃鸟，蜀地最多，鸣声悲哀，若云“不如归去”。</p>
+<p>凋朱颜：红颜带忧色，如花凋谢。凋，使动用法，使…..凋谢，这里指脸色由红润变成铁青。</p>
+<p>去：距离。</p>
+<p>盈：满。</p>
+<p>飞湍（tuān）：飞奔而下的急流。</p>
+<p>喧豗（huī）：喧闹声，这里指急流和瀑布发出的巨大响声。</p>
+<p>砯（pīng）崖：水撞石之声。砯，水冲击石壁发出的响声，这里作动词用，冲击的意思。</p>
+<p>转：使滚动。</p>
+<p>壑：山谷。</p>
+<p>嗟：感叹声。</p>
+<p>尔：你。</p>
+<p>胡为：为什么。</p>
+<p>来：指入蜀。</p>
+<p>剑阁：又名剑门关，在四川剑阁县北，是大、小剑山之间的一条栈道，长约三十余里。</p>
+<p>峥嵘、崔嵬：都是形容山势高大雄峻的样子。</p>
+<p>一夫：一人。</p>
+<p>当关：守关。</p>
+<p>莫开：不能打开。</p>
+<p>所守：指把守关口的人。</p>
+<p>或匪亲：倘若不是可信赖的人。</p>
+<p>匪亲：不是亲信。</p>
+<p>朝：早上。吮：吸。</p>
+<p>锦城：成都古代以产锦闻名，朝廷曾经设官于此，专收锦织品，故称锦城或锦官城。今四川成都市。</p>
+<p>咨嗟：叹息。</p>
+<hr>
+<h3 id="典故"><a href="#典故" class="headerlink" title="典故"></a>典故</h3><h4 id="蚕丛鱼凫"><a href="#蚕丛鱼凫" class="headerlink" title="蚕丛鱼凫"></a>蚕丛鱼凫</h4><p>蚕丛鱼凫是传说中古蜀国两位国王的名字。</p>
+<p>《蜀王本纪》记载:”蜀之先王名蚕丛，后代曰柏灌，又次者曰鱼凫。此三代各数百岁，皆神化不死，其民亦颇随王去。鱼凫田于湔山，得仙。今庙祀之于湔。时蜀民稀少。”</p>
+<p>神话中蜀人的祖先是”蚕丛”和”鱼凫”。蚕丛、柏灌、鱼凫三代都有数百岁，”神化不死”。</p>
+<p>他主要的功绩是”教民蚕桑”。蜀国的蜀字是一棵弯曲的桑树，树下一只虫(就是蚕之虫)而构成的。</p>
+<h4 id="地崩山摧壮士死"><a href="#地崩山摧壮士死" class="headerlink" title="地崩山摧壮士死"></a>地崩山摧壮士死</h4><p>神话传说：五丁开山</p>
+<p>《华阳国志·蜀志》记载：周失纲纪，蜀先称王。有蜀侯蚕丛，其目纵，始称王。死，作石棺石椁，国人从之，故俗以石棺椁为纵目人冢也。次王曰柏灌。次王曰鱼凫时蜀有五丁力士，能移山，举万钧。周显王之世，蜀王有褒、汉之地。因猎谷中，与秦惠王遇。惠王以金一笥遗蜀王，王报珍玩之物，物化为土。惠王怒。群臣贺曰：“天承我矣，王将得蜀土地。”惠王喜，乃作石牛五头，朝泻金其后，曰“牛便金”，有养卒百人。蜀人悦之，使使请石牛。惠王许之。乃遣五丁迎石牛。既不便金，怒，遣还之。乃嘲秦人曰“东方牧犊儿”。秦人笑之曰：“吾虽牧犊，当得蜀也。”周显王三十二年，蜀侯使朝秦，——秦惠王数以美女进，蜀王感之，故朝焉。惠王知蜀王好色，许嫁五女于蜀，蜀遣五丁迎之。还到梓潼，见一大蛇入穴中。一人揽其尾掣之，不禁，至五人相助，大呼抴蛇，山崩。时压杀五人，及秦五女并将从。而山分为五岭，直顶上有平石。蜀王痛伤，乃登之，因命曰“五妇冢山”；于平石上为望妇堠，作思妻台。今其山或名五丁冢。</p>
+<p>故事的大意是：</p>
+<p>当时强大的秦国，常想吞灭蜀国。但是蜀国地势险要，俗话说，一夫当关，万夫莫开，军队不容易通行，硬攻显然不是办法。狡猾的秦惠王便想出一条妙计:叫人作了五头石牛，每天在石牛屁股后面摆上一堆金子，谎称石牛是金牛，每天能拉一堆金子。</p>
+<p>贪婪的蜀王听到这个消息，想要得到这些所谓的金牛，便托人向秦王索求，秦王马上答应了。但是石牛很重，怎么搬取?当时蜀国有五个大力士，力大无比，叫五丁力士。蜀王就叫他们去凿山开路，把金牛拉回来。五丁力士好不容易开出一条金牛路，拉回这些所谓的金牛，回到成都，才发现他们不过是石牛，方知上当受骗。</p>
+<p>蜀王后来托人狠狠地骂了秦国国君言而无信，并把这些石牛运回秦国。秦王说听讲金牛道已打通，十分高兴。但十分忌讳五丁力士，因为其力无穷，不敢马上进攻。于是又生出一计，托人向蜀王讲:金牛是没有，但是我们有五个天仙似的小姑娘，比金子还珍贵，如果蜀国国王要的话，愿意无私奉献。秦王的本意，想用美女计，来迷惑蜀国国王。</p>
+<p>蜀王本是好色之徒，听了以后，欣喜若狂。再次叫五大力士到秦国去一趟，要他们把五位美女及早接回来。五丁力士带着五位美女回家的路上，经过梓潼这个地方，忽然看到一条大蛇正向一座山洞钻去。五丁力士中的一位，赶紧跑过去抓住它的尾巴，一个劲地往外拉，企图把蛇杀死，为民除害。但蛇很大，一个人拖不动，于是五个兄弟一起过来。这时蛇头已经进入洞内，蛇尾巴正在洞口。他们几人联合用手去拖蛇的尾巴。过了一段时间。巨蛇才一点点地从山洞里拖了出来，弟兄们十分高兴。忽然妖风作怪，只听到一声巨响，地动山摇，大山崩塌下来，刹那间五个壮士和五个美女都被压死了，化为血泥，一座大山化为五座峰岭!</p>
+<p>蜀国国王听了这个消息，悲痛欲绝。他是做梦也想得到这五位美女，供他寻欢作乐啊。他亲自登临这五座山，进行厚颜无耻的悼念，并且命名这五座山为五妇，至于死了五位壮士，却一点也不心疼。人民对这个昏君的行为十分看不惯，他们十分热爱这五大力士，便称这五座山为五丁。</p>
+<p>关于秦惠王用石牛骗去蜀王的故事，还演变成了“贪小失大”这个成语，因为贪图小便宜而失掉大的利益。比喻只谋求眼前的好处而不顾长远的利益。</p>
+<h4 id="六龙回日"><a href="#六龙回日" class="headerlink" title="六龙回日"></a>六龙回日</h4><p>《淮南子》注云:”日乘车，驾以六龙。羲和御之。日至此面而薄于虞渊，羲和至此而回六螭。”</p>
+<p>传说神人羲和，赶着一驾神车，在太空飞驰，车上驾的不是马，而是六条奔腾的龙。车上运载的，则是光华万丈的太阳。太阳每天都在天空中飞过，照耀着大地，给出大地带来绚丽的光明。</p>
+<h4 id="子规啼月"><a href="#子规啼月" class="headerlink" title="子规啼月"></a>子规啼月</h4><p>《蜀王本纪》云∶杜宇为望帝，淫其臣鳖灵 妻，乃禅位亡去。时子规鸟鸣，故蜀人见鹃鸣而悲望帝。</p>
+<p>子规是一种鸟，俗称杜鹃。相传这种鸟是上古时代蜀地的一个帝王变的。这个帝王人称望帝，名叫杜宇。他做皇帝之后励精图治，非常有德能。后来蜀地发大水，他的丞相巫山治水有功，他自认为自己的才能比不上巫山，于是退位将皇位让给了巫山，独自离去。死后他化作了一只小鸟，由于思念故土，这只小鸟整天叫着“不如归去”，以至于嘴上都啼出血来。人们便称它为“子规”。地上有一种跟他同名的花叫做杜鹃花，据说就是他啼出的鲜血滴在地上变成的。</p>
+<hr>
+<h3 id="赏析"><a href="#赏析" class="headerlink" title="赏析"></a>赏析</h3><h4 id="整体评析"><a href="#整体评析" class="headerlink" title="整体评析"></a><strong>整体评析</strong></h4><p>这首诗是袭用乐府旧题，意在送友人入蜀。诗人以浪漫主义的手法，展开丰富的想象，艺术地再现了蜀道峥嵘，突兀，强悍、崎岖等奇丽惊险和不可凌越的磅礴气势，借以歌咏蜀地山川的壮秀，显示出祖国山河的雄伟壮丽。</p>
+<p>至于本诗是否有更深的寓意，历代有各种不同看法。然而就诗论诗，不一定强析有寓意。但从诗中，“所守或匪亲，化为狼与豺”看，却是在写蜀地山川峻美的同时，告诫当局，蜀地险要，应好好用人防守。</p>
+<p>诗采用律体与散文间杂，文句参差，笔意纵横，豪放洒脱。全诗感情强烈，一唱三叹，回环反复，读来令人心潮激荡。</p>
+<h4 id="整体把握"><a href="#整体把握" class="headerlink" title="整体把握"></a><strong>整体把握</strong></h4><p>这首诗大约是天宝（唐玄宗年后，742～756）初年，李白第一次到长安时写的。《蜀道难》是他袭用乐府古题，展开丰富的想象，着力描绘了秦蜀道路上奇丽惊险的山川，并从中透露了对社会的某些忧虑与关切。</p>
+<p>诗人大体按照由古及今，自秦入蜀的线索，抓住各处山水特点来描写，以展示蜀道之难。</p>
+<p>从“噫吁嚱”到“然后天梯石栈相钩连”为一个段落。一开篇就极言蜀道之难，以感情强烈的咏叹点出主题，为全诗奠定了雄放的基调。以下随着感情的起伏和自然场景的变化，“蜀道之难，难于上青天”的咏叹反复出现，像一首乐曲的主旋律一样激荡着读者的心弦。</p>
+<p>说蜀道的难行比上天还难，这是因为自古以来秦、蜀之间被高山峻岭阻挡，由秦入蜀，太白峰则是第一道屏障，只有高飞的鸟儿能从低缺处飞过。太白峰在秦都咸阳西南，是关中一带的最高峰。民谚云：“武公太白，去天三百。”诗人以夸张的笔墨写出了历史上不可逾越的险阻，并融汇了五丁开山的神话，点染了神奇色彩，犹如一部乐章的前奏，具有引人入胜的妙用。下面即着力刻画蜀道的高危难行了。</p>
+<p>从“上有六龙回日之高标”至“使人听此凋朱颜”为又一段落。这一段极写山势的高危，山高写得愈充分，愈可见路之难行。你看那突兀而立的高山，高标接天，挡住了太阳神的运行；山下则是冲波激浪、曲折回旋的河川。诗人不但把夸张和神话融为一体，直写山高，而且衬以“回川”之险。唯其水险，更见山势的高危。诗人意犹未足，又借黄鹤与猿猱来反衬。山高得连千里翱翔的黄鹤也不得飞度，轻疾敏捷的猿猴也愁于攀援，不言而喻，人行走就难上加难了。以上用虚写手法层层映衬，下面再具体描写青泥岭的难行。</p>
+<p>青泥岭，“悬崖万仞，山多云雨”，为唐代入蜀要道。诗人着重就其峰路的萦回和山势的峻危来表现人行其上的艰难情状和畏惧心理，捕捉了在岭上曲折盘桓、手扪星辰、呼吸紧张、抚胸长叹等细节动作加以摹写，寥寥数语，便把行人艰难的步履、惶悚的神情，绘声绘色地刻画出来，困危之状如在目前。</p>
+<p>至此蜀道的难行似乎写到了极处。但诗人笔锋一转，借“问君”引出旅愁，以忧切低昂的旋律，把读者带进一个古木荒凉、鸟声悲凄的境界。杜鹃鸟空谷传响，充满哀愁，使人闻声失色，更觉蜀道之难。诗人借景抒情，用“悲鸟号古木”“子规啼夜月”等感情色彩浓厚的自然景观，渲染了旅愁和蜀道上空寂苍凉的环境气氛，有力地烘托了蜀道之难。</p>
+<p>然而，逶迤千里的蜀道，还有更为奇险的风光。自“连峰去天不盈尺”至全篇结束，主要从山川之险来揭示蜀道之难，着力渲染惊险的气氛。如果说“连峰去天不盈尺”是夸饰山峰之高，“枯松倒挂倚绝壁”则是衬托绝壁之险。</p>
+<p>诗人先托出山势的高险，然后由静而动，写出水石激荡、山谷轰鸣的惊险场景。好像一串电影镜头：开始是山峦起伏、连峰接天的远景画面；接着平缓地推成枯松倒挂绝壁的特写；而后，跟踪而来的是一组快镜头，飞湍、瀑流、悬崖、转石，配合着万壑雷鸣的音响，飞快地从眼前闪过，惊险万状，目不暇接，从而造成一种势若排山倒海的强烈艺术效果，使蜀道之难的描写，简直达到了登峰造极的地步。如果说上面山势的高危已使人望而生畏，那此处山川的险要更令人惊心动魄了。</p>
+<p>风光变幻，险象丛生。在十分惊险的气氛中，最后写到蜀中要塞剑阁，在大剑山和小剑山之间有一条三十里长的栈道，群峰如剑，连山耸立，削壁中断如门，形成天然要塞。因其地势险要，易守难攻，历史上在此割据称王者不乏其人。诗人从剑阁的险要引出对政治形势的描写。他化用西晋张载《剑阁铭》中“形胜之地，匪亲勿居”的语句，劝人引为鉴戒，警惕战乱的发生，并联系当时的社会背景，揭露了蜀中豺狼的“磨牙吮血，杀人如麻”，从而表达了对国事的忧虑与关切。唐天宝初年，太平景象的背后正潜伏着危机，后来发生的安史之乱，证明诗人的忧虑是有现实意义的。</p>
+<p>李白以变化莫测的笔法，淋漓尽致地刻画了蜀道之难，艺术地展现了古老蜀道逶迤、峥嵘、高峻、崎岖的面貌，描绘出一幅色彩绚丽的山水画卷。诗中那些动人的景象宛如历历在目。</p>
+<p>李白之所以描绘得如此动人，还在于融贯其间的浪漫主义激情。诗人寄情山水，放浪形骸。他对自然景物不是冷漠的观赏，而是热情地赞叹，借以抒发自己的理想感受。那飞流惊湍、奇峰险壑，赋予了诗人的情感气质，因而才呈现出飞动的灵魂和瑰伟的姿态。诗人善于把想象、夸张和神话传说融为一体进行写景抒情。言山之高峻，则曰“上有六龙回日之高标”；状道之险阻，则曰“地崩山摧壮士死，然后天梯石栈相钩连”。诗人“驰走风云，鞭挞海岳”（陆时雍《诗镜总论》评李白七古语），从蚕丛开国说到五丁开山，由六龙回日写到子规夜啼，天马行空般地驰骋想象，创造出博大浩渺的艺术境界，充满了浪漫主义色彩。透过奇丽峭拔的山川景物，仿佛可以看到诗人那“落笔摇五岳、笑傲凌沧洲”的高大形象。</p>
+<p>唐以前的《蜀道难》作品，简短单薄。李白对东府古题有所创新和发展，用了大量散文化诗句，字数从三言、四言、五言、七言，直到十一言，参差错落，长短不齐，形成极为奔放的语言风格。诗的用韵，也突破了梁陈时代旧作一韵到底的程式。后面描写蜀中险要环境，一连三换韵脚，极尽变化之能事。所以殷璠编《河岳英灵集》称此诗“奇之又奇，自骚人以还，鲜有此体调”。</p>
+<p>关于此篇，前人有种种寓意之说，断定是专为某人某事而作的。明人胡震亨、顾炎武认为，李白“自为蜀咏”，“别无寓意”。今人有谓此诗表面写蜀道艰险，实则写仕途坎坷，反映了诗人在长期漫游中屡逢踬碍的生活经历和怀才不遇的愤懑，迄无定论。</p>
+<h4 id="逐段分析"><a href="#逐段分析" class="headerlink" title="逐段分析"></a><strong>逐段分析</strong></h4><p>第一段从开头到“相钩连”，用了四韵，为全诗定下豪放的基调，并用五丁开山的神话，点染了神奇色彩。《蜀王本纪》中记载了一个关于蜀道的神话。据说当年秦惠王时，蜀王部下有五个大力士，称为“五丁力士”。他们力大无穷。于是秦惠王送给蜀王五个美女，蜀王就命五丁力士移山开路，迎娶美女。在回行路上，见一条大蛇蹿入山洞，五丁力士上前拉住蛇尾，用力往外拖，忽然地动山摇，山岭崩塌，压死了五丁力士。秦国的五个美女都奔上山去，化为石人。这个神话，反映着古代有许多劳动人民，凿山开路，牺牲了不少人，终于打开了秦蜀通道。李白运用这个神话的母题，写了第五韵二句：“地崩山摧壮士死”，也可以说是指五丁力士，也可以说是指成千累万为开山辟路而牺牲的劳动人民。他们死了，然后从秦入蜀才有山路和栈道连接起来。第一段诗到此为止，用四韵八句叙述了蜀道的起源。</p>
+<p>第二段共享九个韵，描写天梯石栈的蜀道。“六龙回日”也是一个神话故事，据说太阳之神羲和驾着六条龙每天早晨从扶桑西驰，直到若木。左思《蜀都赋》有两句描写蜀中的高山：“羲和假道于峻坂，阳乌回翼乎高标。”羲和和阳乌都是太阳的代词。文意是说：太阳也得向高山借路。而最高的山还使太阳回飞避开。“上有六龙回日之高标”，这一句就是说：上面有连太阳都过不去的高峰。“高标”是高举、高耸之意，但作名词用，因而可以解作高峰。萧士赟注引《图经》云：高标是山名。这是后代人误读李白诗，或有意附会，硬把一座山名为高标。原诗以“高标”和“回川”对举，可知决不是专名。</p>
+<p>这两句诗有一个不同的文本。《河岳英灵集》、《极玄集》这两个唐人的选本、敦煌石室中发现的唐人写本，还有北宋初的《唐文粹》，这两句却不是“上有六龙回日之高标，下有冲波逆折之回川”，而是“上有横河断海之浮云，下有逆折冲波之流川”。从对偶来看，后者较为工整，若论句子的气魄，则前者更为壮健。可能后者是当时流传的初稿，而前者是作者的最后改定本。故当时的选本作“横河断海”，而李阳冰编定的集本作“六龙回日”。</p>
+<p>以下一大段又形容蜀山之高且险。黄鹤都飞不过，猿猴也怕攀缘之苦。青泥岭，在陕西略阳县，是由秦入蜀的必经之路。这条山路百步九曲，在山岩上纡回盘绕，行旅极为艰苦。参和井都是二十八宿之一。蜀地属于参宿的分野，秦地属于井宿的分野。在高险的山路上，从秦入蜀，就好似仰面朝天，屏住呼吸，摸着星辰前进。在这样艰难困苦的旅程中，行人都手按着胸膛，为此而长叹。这个“坐”字，不是坐立的坐，应该讲作“因此”。</p>
+<p>以上是第二段的前半，四韵八句，一气贯注，渲染了蜀道之难。下面忽然接一句“问君西游何时还”，这就透露了赠行的主题。作者不像作一般送行诗那样，讲些临别的话，而在描写蜀道艰难中间，插入一句“你什么时候才能回来呀？”由此反映了来去都不容易。这一句本身也成为蜀道难的描写部分了。</p>
+<p>“畏途巉岩”以下四韵七句，仍然紧接着上文四韵写下去，不过改变了描写的对象。现在不写山高路险，而写山中的禽鸟了。诗人说：这许多不可攀登的峥嵘的山岩，真是旅人怕走的道路（畏途）。在这一路上，你能见到的只是古树上悲鸣的鸟，雌的跟着雄的在幽林中飞绕。还有蜀地著名的子规鸟，常在月下悲鸣。据说古代有一个蜀王，名叫杜宇，号为望帝。他因亡国而死，死后化为子规鸟，每天夜里在山中悲鸣，好像哭泣一样。</p>
+<p>以下还有一韵二句，是第二段的结束语。先重复一句“蜀道之难难于上青天”，接着说：使人听了这些情况，会惊骇得变了脸色。“凋朱颜”在这里只能讲作因惊骇而“色变”的意思，虽然在别处应当讲作“衰老”。</p>
+<p>第二段以下，韵法与章法似乎有点参差。依韵法来写，分为三段。但如果从思想内容的结构来看，实在只能说是两段。从“连峰去天不盈尺”到“胡为乎来哉”是一段，即全诗的第三段。从“剑阁峥嵘而崔嵬”到末句是又一段，即全诗的第四段，第三段前四句仍是描写蜀道山水之险，但作者分用两个韵。“尺”、“壁”一韵，只有二句，接下去立刻就换韵，使读者到此，有气氛短促之感。在长篇歌行中忽然插入这样的短韵句法，一般都认为是缺点。尽管李白才气大，自由用韵，不受拘束，但这两句韵既急促，思想又不成段落，在讲究诗法的人看来，终不是可取的。</p>
+<p>这一段前二句形容高山绝壁上有倒挂的枯松，下二句形容山泉奔瀑，冲击崖石的猛势，如万壑雷声。最后结束一句“其险也如此”。这个“如此”，并不单指上面二句，而是总结“上有六龙回日之高标”以下的一切描写。在山水形势方面的蜀道之险，到此结束。此下就又接一个问句：你这个远路客人为什么到这里来呢?这又是出人意外的句子。如果从蜀中人的立场来讲，就是说：我们这地方，路不好走，你何必来呢？如果站在送行人的立场来讲，就是说：如此危险的旅途，你有什么必要到那里去呢？</p>
+<p>接下去转入第四段，忽然讲到蜀地的军事形势。“一夫当关，万夫莫开”，易于固守，难于攻入。像这样的地方，如果没有亲信可靠的人去镇守，就非常危险了。这几句诗完全用晋代张载的《剑阁铭》中四句：“一人荷戟，万夫趑趄，形胜之地，匪亲弗居。”李白描写蜀道之难行，联系到蜀地形势所具有的政治意义，事实上已越出了乐府旧题“蜀道难”的范围。巴蜀物产富饶，对三秦的经济供应，甚为重要。所以王勃《送杜少府之任蜀川》诗第一句就说蜀地“城阙辅三秦”，也是指出了这一点。李白作乐府诗，虽然都用旧题，却常常注入有现实意义的新意。这一段诗反映了初唐以来，蜀地因所守非亲，屡次引起吐蕃、南蛮的入侵，导致生灵涂炭的战争，使三秦震动。</p>
+<p>这一段诗，在李白是顺便提到，作为描写蜀道难的一部分。但却使后世读者误认为全诗的主题所在。有人以为此诗讽刺章仇兼琼，有人以为讽刺严武，有人以为讽刺一般恃险割据的官吏，都是为这一段诗所迷惑，而得出这些结论。但是，这几句诗，确是破坏了全诗的统一性，写在赠友人入蜀的诗中，实在使人有主题两歧之感。然诗作本是诗人感情之流露：蜀中势力盘根错节，险要的地势更成为滋生割据野心的土壤，李白害怕友人误入是非之地，命丧宵小之手，故有“一夫当关，万夫莫开”“锦城虽云乐，不如早还家”之语。</p>
+
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E5%8F%A4%E8%AF%97%E6%96%87/">古诗文</a>
+                                    </li>
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E8%9C%80%E9%81%93%E9%9A%BE/">蜀道难</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+                    <div class="reward-author-container border-box flex-center">
+    <div class="reward-btn keep-button border-box flex-center tooltip tooltip-img"
+            data-tooltip-content="请作者喝杯水"
+            data-tooltip-img-url="/images/reward.png"
+            data-tooltip-img-trigger="click"
+            data-tooltip-img-style="top: -8px;"
+    >
+        <i class="fa-solid fa-hand-holding-heart"></i>
+    </div>
+</div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/2024/01/09/%E5%86%BB%E6%9D%BF%E6%A0%97/"
+                                   title="冻板栗"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">冻板栗</span>
+                                        <span class="post-nav-item">上一篇</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/01/07/%E5%90%AF%E8%88%AA/"
+                                   title="启航"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">启航</span>
+                                        <span class="post-nav-item">下一篇</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+    <div class="comments-container border-box">
+        <div id="comments-anchor" class="comment-area-title border-box">
+            <i class="fas fa-comments"></i>&nbsp;评论
+        </div>
+        <div class="comment-plugin-fail border-box">
+    <span class="fail-tip">评论插件加载失败</span>
+    <button class="reload keep-button">点击重新加载</button>
+</div>
+<div class="comment-plugin-loading flex-center border-box">
+    <i class="loading-icon fa-solid fa-spinner fa-spin"></i>
+    <span class="load-tip">正在加载评论插件</span>
+</div>
+<script data-pjax>
+  window.KeepCommentPlugin = {}
+  window.KeepCommentPlugin.hideLoading = () => {
+    const cplDom = document.querySelector('.comments-container .comment-plugin-loading')
+    cplDom.style.display = 'none'
+  }
+  window.KeepCommentPlugin.loadFailHandle = () => {
+    window.KeepCommentPlugin.hideLoading()
+    const cpfDom = document.querySelector('.comments-container .comment-plugin-fail')
+    cpfDom.style.display = 'flex'
+    cpfDom.querySelector('.reload').addEventListener('click', () => {
+      window.location.reload()
+    })
+  }
+</script>
+
+        
+            
+
+    <div class="twikoo-container">
+        <div id="twikoo-comment"></div>
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/twikoo@1.6.29/dist/twikoo.all.min.js"
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        ></script>
+        <script data-pjax
+                async
+                onerror="window.KeepCommentPlugin.loadFailHandle()"
+        >
+          window.KeepCommentPlugin.initTwikoo = () => {
+            if (window?.twikoo) {
+              twikoo.init({
+                el: '#twikoo-comment',
+                envId: 'https://loongk-blog.hf.space',
+                region: '',
+                lang: 'zh-CN' || 'zh-CN'
+              })
+              window.KeepCommentPlugin.hideLoading()
+            } else {
+              setTimeout(() => {
+                window.KeepCommentPlugin.initTwikoo()
+              }, 1000)
+            }
+          }
+
+          if ('true' === 'true') {
+            setTimeout(() => {
+              window.KeepCommentPlugin.initTwikoo()
+            }, 1200)
+          } else {
+            window.addEventListener('DOMContentLoaded', window.KeepCommentPlugin.initTwikoo)
+          }
+        </script>
+    </div>
+
+
+        
+    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">蜀道难</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%9F%E6%96%87"><span class="nav-number">1.1.</span> <span class="nav-text">原文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BF%BB%E8%AF%91"><span class="nav-number">1.2.</span> <span class="nav-text">翻译</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">1.3.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B8%E6%95%85"><span class="nav-number">1.4.</span> <span class="nav-text">典故</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%9A%95%E4%B8%9B%E9%B1%BC%E5%87%AB"><span class="nav-number">1.4.1.</span> <span class="nav-text">蚕丛鱼凫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%B0%E5%B4%A9%E5%B1%B1%E6%91%A7%E5%A3%AE%E5%A3%AB%E6%AD%BB"><span class="nav-number">1.4.2.</span> <span class="nav-text">地崩山摧壮士死</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AD%E9%BE%99%E5%9B%9E%E6%97%A5"><span class="nav-number">1.4.3.</span> <span class="nav-text">六龙回日</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%90%E8%A7%84%E5%95%BC%E6%9C%88"><span class="nav-number">1.4.4.</span> <span class="nav-text">子规啼月</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%8F%E6%9E%90"><span class="nav-number">1.5.</span> <span class="nav-text">赏析</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E8%AF%84%E6%9E%90"><span class="nav-number">1.5.1.</span> <span class="nav-text">整体评析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E6%8A%8A%E6%8F%A1"><span class="nav-number">1.5.2.</span> <span class="nav-text">整体把握</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%90%E6%AE%B5%E5%88%86%E6%9E%90"><span class="nav-number">1.5.3.</span> <span class="nav-text">逐段分析</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box default">
+        
+            <div class="copyright-info info-item default">
+                &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2024
+                
+                    &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">Loong</a>
+                
+            </div>
+
+            <div class="theme-info info-item default">
+                由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+            </div>
+
+            
+
+            
+                
+                <div class="deploy-info info-item default">
+                    
+                        本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/deploy-provider/github.png"></span> 提供部署服务
+                    
+                </div>
+            
+        
+
+        <div class="count-item info-item default">
+            
+                <span class="count-box border-box word">
+                    <span class="item-type border-box">总字数</span>
+                    <span class="item-value border-box word">7.7k</span>
+                </span>
+            
+
+            
+                <span class="count-box border-box uv">
+                    <span class="item-type border-box">访客数</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-box border-box pv">
+                    <span class="item-type border-box">访问量</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+            <li class="tools-item rss flex-center">
+                <a class="flex-center"
+                   href="/atom.xml"
+                   target="_blank"
+                >
+                    <i class="fas fa-rss"></i>
+                </a>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+            <li class="tools-item go-to-comments-tablet flex-center">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">蜀道难</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8E%9F%E6%96%87"><span class="nav-number">1.1.</span> <span class="nav-text">原文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BF%BB%E8%AF%91"><span class="nav-number">1.2.</span> <span class="nav-text">翻译</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E9%87%8A"><span class="nav-number">1.3.</span> <span class="nav-text">注释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B8%E6%95%85"><span class="nav-number">1.4.</span> <span class="nav-text">典故</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%9A%95%E4%B8%9B%E9%B1%BC%E5%87%AB"><span class="nav-number">1.4.1.</span> <span class="nav-text">蚕丛鱼凫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%B0%E5%B4%A9%E5%B1%B1%E6%91%A7%E5%A3%AE%E5%A3%AB%E6%AD%BB"><span class="nav-number">1.4.2.</span> <span class="nav-text">地崩山摧壮士死</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AD%E9%BE%99%E5%9B%9E%E6%97%A5"><span class="nav-number">1.4.3.</span> <span class="nav-text">六龙回日</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AD%90%E8%A7%84%E5%95%BC%E6%9C%88"><span class="nav-number">1.4.4.</span> <span class="nav-text">子规啼月</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%8F%E6%9E%90"><span class="nav-number">1.5.</span> <span class="nav-text">赏析</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E8%AF%84%E6%9E%90"><span class="nav-number">1.5.1.</span> <span class="nav-text">整体评析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E6%8A%8A%E6%8F%A1"><span class="nav-number">1.5.2.</span> <span class="nav-text">整体把握</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%90%E6%AE%B5%E5%88%86%E6%9E%90"><span class="nav-number">1.5.3.</span> <span class="nav-text">逐段分析</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+<!-- common -->
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/toggle-theme.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/code-block.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/libs/anime.min.js"></script>
+
+<!-- local-search -->
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/local-search.js"></script>
+
+
+<!-- lazyload -->
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/lazyload.js"></script>
+
+
+<div class="pjax">
+    
+        <!-- post-helper -->
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/post/post-helper.js"></script>
+
+        <!-- toc -->
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/post/toc.js"></script>
+        
+
+        <!-- copyright-info -->
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/post/copyright-info.js"></script>
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- category-page -->
+    
+
+    <!-- links-page -->
+    
+
+    <!-- photos-page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@4.0.6/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart()
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd()
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
+            KEEP.initExecute()
+        });
+    });
+</script>
+
+
+
+
+    
+        
+    
+
+</body>
+</html>
